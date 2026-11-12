@@ -167,7 +167,6 @@ namespace labTumakov
             if (!File.Exists(inputFile))
             {
                 Console.WriteLine("Ошибка: файл не существует");
-                Console.WriteLine($"Путь поиска: {inputFile}");
                 Console.ReadKey();
                 return;
             }
